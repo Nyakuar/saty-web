@@ -1,104 +1,87 @@
+import BuzzerFirst from '../images/buzzerfirst.jpg';
+import SIM from '../images/SIM800A-Quad.jpg';
+import Cable from '../images/arduino-uno-r3-cable-.jpg';
+import GPSIcon from '../images/gps-icon-cent.webp';
+import LEDLight from '../images/led-light-.png';
+import Board from '../images/breadboard-protoboard.jpg';
+
 const IotComponentsUsed = () => {
   return (
     <>
-      <div class="categoryTitle">
+      <div className="categoryTitle">
         <h1>Iot components used</h1>
       </div>
 
-      <section class="hotDeals-area">
-        <section class="cards-area">
-          <div class="card">
-            <div class="hotdeal-image">
-              <img
-                src="/image/buzzerfirst.jpg"
-                class="card-img-top"
-                alt="product"
-              />
+      <section className="hotDeals-area">
+        <section className="cards-area">
+          <div className="card">
+            <div className="hotdeal-image">
+              <img src={BuzzerFirst} className="card-img-top" alt="product" />
             </div>
 
-            <div class="card-body">
-              <h5 class="card-title">buzzer</h5>
-              <div class="product-prices"></div>
+            <div className="card-body">
+              <h5 className="card-title">buzzer</h5>
+              <div className="product-prices"></div>
             </div>
           </div>
 
-          <div class="card">
-            <div class="hotdeal-image">
-              <img
-                src="/image/SIM800A-Quad.jpg"
-                class="card-img-top"
-                alt="product"
-              />
+          <div className="card">
+            <div className="hotdeal-image">
+              <img src={SIM} className="card-img-top" alt="product" />
             </div>
 
-            <div class="card-body">
-              <h5 class="card-title">GSM</h5>
-              <div class="product-prices"></div>
+            <div className="card-body">
+              <h5 className="card-title">GSM</h5>
+              <div className="product-prices"></div>
             </div>
           </div>
 
-          <div class="card">
-            <div class="hotdeal-image">
-              <img
-                src="/image/arduino-uno-r3-cable-.jpg"
-                class="card-img-top"
-                alt="product"
-              />
+          <div className="card">
+            <div className="hotdeal-image">
+              <img src={Cable} className="card-img-top" alt="product" />
             </div>
 
-            <div class="card-body">
-              <h5 class="card-title">Arduino</h5>
-              <div class="product-prices"></div>
+            <div className="card-body">
+              <h5 className="card-title">Arduino</h5>
+              <div className="product-prices"></div>
             </div>
           </div>
 
-          <div class="card">
-            <div class="hotdeal-image">
-              <img
-                src="/image/gps-icon-cent.webp"
-                class="card-img-top"
-                alt="product"
-              />
+          <div className="card">
+            <div className="hotdeal-image">
+              <img src={GPSIcon} className="card-img-top" alt="product" />
             </div>
 
-            <div class="card-body">
-              <h5 class="card-title">GPS</h5>
-              <div class="product-prices"></div>
+            <div className="card-body">
+              <h5 className="card-title">GPS</h5>
+              <div className="product-prices"></div>
             </div>
           </div>
 
-          <div class="card">
-            <div class="hotdeal-image">
-              <img
-                src="/image/led-light-.png"
-                class="card-img-top"
-                alt="product"
-              />
+          <div className="card">
+            <div className="hotdeal-image">
+              <img src={LEDLight} className="card-img-top" alt="product" />
             </div>
 
-            <div class="card-body">
-              <h5 class="card-title">LED</h5>
-              <div class="product-prices"></div>
+            <div className="card-body">
+              <h5 className="card-title">LED</h5>
+              <div className="product-prices"></div>
             </div>
           </div>
 
-          <div class="card">
-            <div class="hotdeal-image">
-              <img
-                src="/image/breadboard-protoboard.jpg"
-                class="card-img-top"
-                alt="product"
-              />
+          <div className="card">
+            <div className="hotdeal-image">
+              <img src={Board} className="card-img-top" alt="product" />
             </div>
 
-            <div class="card-body">
-              <h5 class="card-title">Breadboard</h5>
-              <div class="product-prices"></div>
+            <div className="card-body">
+              <h5 className="card-title">Breadboard</h5>
+              <div className="product-prices"></div>
             </div>
           </div>
         </section>
-        <div class="text-center">
-          <button class="shopButton viewAllButon">View All</button>
+        <div className="text-center">
+          <button className="shopButton viewAllButon">View All</button>
         </div>
       </section>
     </>

@@ -1,4 +1,4 @@
-import Navbar from './navbar';
+import NavComponent from './navbar';
 import Logo from '../images/logo.png';
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
           </h1>
         </a>
       </div>
-      <Navbar />
+      <NavComponent />
     </div>
   );
 };

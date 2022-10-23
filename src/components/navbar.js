@@ -1,4 +1,4 @@
-const Navbar = () => {
+const NavComponent = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="navbar-brand" href="#"></div>
@@ -101,11 +101,10 @@ const Navbar = () => {
               </div>
             </a>
           </div>
-        </div>
+        </div>{' '}
       </div>
-      {/* </div> */}
     </nav>
   );
 };
 
-export default Navbar;
+export default NavComponent;

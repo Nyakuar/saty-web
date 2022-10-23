@@ -3,16 +3,19 @@ import AboutImage from '../images/about.png';
 const AboutSection = () => {
   return (
     <div>
-      <aside className="left">
-        <h1>Smart Whistle Safety Alarm</h1>
+      <div className="mainBanner">
+        <aside className="left">
+          <h1>Smart Whistle Safety Alarm</h1>
 
-        <p>
-          Smart Whistle Activation - Blow the whistle or Press the button for 2s
-          · Phone call· SMS· Location tracking· Whistle sound· Sounding alarm.
-        </p>
+          <p>
+            Smart Whistle Activation - Blow the whistle or Press the button for
+            2s · Phone call· SMS· Location tracking· Whistle sound· Sounding
+            alarm.
+          </p>
 
-        <button className="shopButton">Order Now</button>
-      </aside>
+          <button className="shopButton">Order Now</button>
+        </aside>
+      </div>
 
       <section className="about-section">
         <aside className="left">
