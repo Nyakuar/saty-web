@@ -156,7 +156,7 @@ a.btn-dark:focus {
     color: white;
 }
 .mainBanner {
-   background-image: url(/image/Frame\ back.png);
+   background-image: url(../images/Frame\ back.png);
     max-width: 1340px;
     height: 530px;
     width: 100%;
@@ -386,7 +386,7 @@ a.btn-dark:focus {
 }
 .banner1 .left {
     width: 50%;
-    background: url(/image/Frames.png);
+    background: url(../images/Frames.png);
      animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: 1s;
@@ -586,7 +586,7 @@ footer {
     background-color: #751FFF;
 }
 .backss{
-    background-image: url(/image/backgrd.how.it\ works.png);
+    background-image: url(../images/backgrd.how.it\ works.png);
     background-repeat: no-repeat;
 }
  @keyframes slidein {
