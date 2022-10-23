@@ -1,4 +1,4 @@
-import ProfilePic1 from '../images/kuar.png';
+ import ProfilePic1 from '../images/kuar.png';
 import ProfilePic2 from '../images/Joan.jpeg';
 import ProfilePic3 from '../images/Nyawera.jpeg';
 import ProfilePic4 from '../images/Benadate.jpeg';
@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <section id="staff" className="bg-white text-black text-center py-5">
-        <div className="container" id="id-meetus">
+        <div className="containers" id="id-meetus">
           <h2>Meet our Team</h2>
           <hr />
           <div className="row">
@@ -15,7 +15,7 @@ const Footer = () => {
               <img
                 src={ProfilePic1}
                 alt="staff member one"
-                className="img-fluid rounded-circle mb-2"
+                // className="img-fluid rounded-circle mb-2"
               />
               <h4>Nyakuar Yiech</h4>
               <small>Software Developer</small>
@@ -34,7 +34,7 @@ const Footer = () => {
               <img
                 src={ProfilePic2}
                 alt="staff member two"
-                className="img-fluid rounded-circle mb-2"
+                // className="img-fluid rounded-circle mb-2"
               />
               <h4>Joan Muthoni</h4>
               <small> Software developer</small>
@@ -53,7 +53,7 @@ const Footer = () => {
               <img
                 src={ProfilePic3}
                 alt="staff member three"
-                className="img-fluid rounded-circle mb-2"
+                // className="img-fluid rounded-circle mb-2"
               />
               <h4>Nyawera Tut </h4>
               <small>Software developer </small>
@@ -72,7 +72,7 @@ const Footer = () => {
               <img
                 src={ProfilePic4}
                 alt="staff member four"
-                className="img-fluid rounded-circle mb-2"
+                // className="img-fluid rounded-circle mb-2"
               />
               <h4>Atuheire Benadate</h4>
               <small>Software Developer</small>

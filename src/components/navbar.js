@@ -30,7 +30,7 @@ const NavComponent = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Components
+              Components
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
