@@ -307,8 +307,8 @@ a.btn-dark:focus {
 .categoryTitle {
     text-align: center;
     background-color: white;
-    height: 90px;
-    margin: 20px auto;
+    height: 80px;
+    margin: 15px auto;
 }
 .categoryTitle h1 {
     font-family: 'Nunito', sans-serif;
@@ -322,15 +322,19 @@ a.btn-dark:focus {
     right: 35px;
     top: 10px;
     overflow: hidden;
+    display: flex;
 }
 .categoryImage img {
     max-width: 147px;
-    margin-left: 20px;
+    margin-left: 10px;
     transition: 1.2s;
+    display: flex;
+    padding: 0cm;
 }
 .categoryPhoneImage img {
     max-width: unset;
     margin-left: 0px;
+    display: flex;
 }
 .hotdeal-image {
     overflow: hidden;
@@ -378,6 +382,11 @@ a.btn-dark:focus {
 .shopCatButton {
     width: 190px;
     height: 45px;
+}
+.card-image{
+    padding:4px;
+    display: f;
+
 }
 .banner1 {
     display: flex;
@@ -565,6 +574,7 @@ main {
 main section,
 footer section {
     margin: 40px 0px;
+    
 }
 .viewAllButon {
     width: 265px;
@@ -616,18 +626,10 @@ footer {
 flex-direction: row;
 justify-content: left;
 }
-/* .container{
-    display: flex;
-}
-.row col-md-3 mb-resp 
- */
+
 .row{
     display: flex;
 }
-/* .container{
-margin-left: ;
-} */
-
 .col-md-3 {
     padding: 1rem;
     margin: 0 auto;

@@ -10,7 +10,7 @@ const Collections = () => {
       <div className="categoryTitle" id="id-best">
         <h1>Our best Collections</h1>
       </div>
-
+      
       <section className="products-area">
         <section className="cards-area">
           <div className="card">
@@ -26,8 +26,8 @@ const Collections = () => {
               <p className="card-text price">$00.00</p> --> */}
             </div>
 
-            <a href="#" className="btn btn-dark cartButton">
-              Add to Cart
+            <a href="#" className="">
+              
             </a>
           </div>
           {/* </div> */}
@@ -35,7 +35,7 @@ const Collections = () => {
           <div className="card">
             {/* <!-- <div className="newSymbol">SALE</div> --> */}
             <div className="cardImage">
-              <img src={GoldImage} className="card-img-top" alt="product" />
+              <img src={GoldImage} className="" alt="product" />
             </div>
 
             <div className="card-body">
@@ -45,8 +45,8 @@ const Collections = () => {
               <p className="card-text price">$00.00</p> --> */}
             </div>
 
-            <a href="#" className="btn btn-dark cartButton">
-              Add to Cart
+            <a href="#" className="">
+          
             </a>
           </div>
           {/* </div> */}
@@ -54,22 +54,22 @@ const Collections = () => {
           <div className="card">
             {/* <!-- <div className="newSymbol">SALE</div> --> */}
             <div className="cardImage">
-              <img src={GreyImage} className="card-img-top" alt="product" />
+              <img src={GreyImage} className="" alt="product" />
             </div>
 
             <div className="card-body">
               <h5 className="card-title">Smart Whistle Alarm </h5>
             </div>
 
-            <a href="#" className="btn btn-dark cartButton">
-              Add to Cart
+            <a href="#" className="">
+              
             </a>
           </div>
           {/* </div> */}
 
           <div className="card">
             <div className="cardImage">
-              <img src={RedImage} className="card-img-top" alt="product" />
+              <img src={RedImage} className="" alt="product" />
             </div>
 
             <div className="card-body">
@@ -79,8 +79,8 @@ const Collections = () => {
               <p className="card-text price">$00.00</p> --> */}
             </div>
 
-            <a href="#" className="btn btn-dark cartButton">
-              Add to Cart
+            <a href="#" className="">
+              
             </a>
           </div>
         </section>
@@ -98,8 +98,8 @@ const Collections = () => {
               <p className="card-text price">$00.00</p> --> */}
           </div>
 
-          <a href="#" className="btn btn-dark cartButton">
-            Add to Cart
+          <a href="#" className="">
+            
           </a>
         </div>
       </section>
