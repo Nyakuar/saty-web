@@ -1,8 +1,8 @@
 import BlueImage from '../images/blue2.PNG';
-import GoldImage from '../images/Gold1.PNG';
+import BlackImage from '../images/black.png';
 import GreyImage from '../images/grey.PNG';
 import RedImage from '../images/red1.PNG';
-import BlackImage from '../images/black.png';
+// import BlackImage from '../images/black.png';
 
 const Collections = () => {
   return (
@@ -35,7 +35,7 @@ const Collections = () => {
           <div className="card">
             {/* <!-- <div className="newSymbol">SALE</div> --> */}
             <div className="cardImage">
-              <img src={GoldImage} className="" alt="product" />
+              <img src={BlackImage} className="" alt="product" />
             </div>
 
             <div className="card-body">
@@ -88,11 +88,11 @@ const Collections = () => {
         <div className="card">
           {/* <!-- <div className="newSymbol">SALE</div> --> */}
           <div className="cardImage">
-            <img src={BlackImage} className="card-img-top" alt="product" />
+            {/* <img src={BlackImage} className="card-img-top" alt="product" /> */}
           </div>
 
           <div className="card-body">
-            <h5 className="card-title">Smart Whistle Alarm </h5>
+            {/* <h5 className="card-title">Smart Whistle Alarm </h5> */}
             {/* <!-- <div className="product-prices"> -->
               <!-- <p className="discountpr">$00.00</p>
               <p className="card-text price">$00.00</p> --> */}

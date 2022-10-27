@@ -304,12 +304,12 @@ a.btn-dark:focus {
     width: 190px;
     height: 41px;
 }
-.categoryTitle {
+/* .categoryTitle {
     text-align: center;
     background-color: white;
     height: 80px;
     margin: 15px auto;
-}
+} */
 .categoryTitle h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -369,6 +369,7 @@ a.btn-dark:focus {
     justify-content: space-between;
 }
 .categories-area .card .card-text {
+    display: flex;
     width: 394px;
 }
 .categories-area .card {
@@ -383,11 +384,11 @@ a.btn-dark:focus {
     width: 190px;
     height: 45px;
 }
-.card-image{
+/* .card-image{
     padding:4px;
-    display: f;
+    display: flex;
 
-}
+} */
 .banner1 {
     display: flex;
     background-color: #000000;
