@@ -2,6 +2,9 @@
 import ProfilePic2 from '../images/Joan.jpeg';
 import ProfilePic3 from '../images/Nyawera.jpeg';
 import ProfilePic4 from '../images/Benadate.jpeg';
+import React from 'react';
+import { FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -14,78 +17,50 @@ const Footer = () => {
             <div className="col-md-3 mb-resp">
               <img
                 src={ProfilePic1}
-                alt="staff member one"
-                // className="img-fluid rounded-circle mb-2"
-              />
+                alt="staff member one"/>
               <h4>Nyakuar Yiech</h4>
               <small>Software Developer</small>
               <li className="footerIcon">
-                <a href="https://twitter.com/NyakuarY">
-                  <i className="fa fa-twitter"></i>
-                </a>
+                <a href='https://twitter.com/NyakuarY'> <FaTwitter /></a>
+                <a href='https://www.linkedin.com/in/nyakuar-yiech'> <FaLinkedin /></a>
               </li>
-              <li className="footerIcon">
-                <a href="https://www.linkedin.com/in/nyakuar-yiech/">
-                  <i className="fa fa-linkedin-square"></i>
-                </a>
-              </li>
+          
             </div>
             <div className="col-md-3 mb-resp">
               <img
                 src={ProfilePic2}
-                alt="staff member two"
-                // className="img-fluid rounded-circle mb-2"
-              />
+                alt="staff member two"/>
               <h4>Joan Muthoni</h4>
               <small> Software developer</small>
               <li className="footerIcon">
-                <a href="https://twitter.com/JoanMut93389033">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li className="footerIcon">
-                <a href="linkedin.com/in/joan-muthoni-7b8670233">
-                  <i className="fa fa-linkedin-square"></i>
-                </a>
+              <a href='https://twitter.com/JoanMut93389033'> <FaTwitter /></a>
+                <a href='linkedin.com/in/joan-muthoni-7b8670233'> <FaLinkedin /></a>
               </li>
             </div>
             <div className="col-md-3 mb-resp">
               <img
                 src={ProfilePic3}
-                alt="staff member three"
-                // className="img-fluid rounded-circle mb-2"
-              />
+                alt="staff member three"              />
               <h4>Nyawera Tut </h4>
               <small>Software developer </small>
               <li className="footerIcon">
-                <a href="https://twitter.com/NyakuarY">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li className="footerIcon">
-                <a href="https://www.linkedin.com/in/nyawera-tut/">
-                  <i className="fa fa-linkedin-square"></i>
-                </a>
+              <a href='https://twitter.com/NyakuarY'> <FaTwitter /></a>
+                <a href='https://www.linkedin.com/in/nyawera-tut/'> <FaLinkedin /></a>
+             
               </li>
             </div>
             <div className="col-md-3">
               <img
                 src={ProfilePic4}
-                alt="staff member four"
-                // className="img-fluid rounded-circle mb-2"
-              />
+                alt="staff member four"/>
               <h4>Atuheire Benadate</h4>
               <small>Software Developer</small>
               <li className="footerIcon">
-                <a href="https://twitter.com/NyakuarY">
-                  <i className="fa fa-twitter"></i>
-                </a>
+              <a href='https://twitter.com/BenadateA'> <FaTwitter /></a>
+                <a href='https://www.linkedin.com/in/atuheire-benadate-b66591233/'> <FaLinkedin /></a>
+             
               </li>
-              <li className="footerIcon">
-                <a href="https://www.linkedin.com/in/atuheire-benadate-b66591233/">
-                  <i className="fa fa-linkedin-square"></i>
-                </a>
-              </li>
+            
             </div>
           </div>
         </div>
@@ -96,9 +71,9 @@ const Footer = () => {
             <h3>Products</h3>
 
             <a href="./">Different collection</a>
-            <a href="./">charger</a>
+            <a href="./">Charger</a>
 
-            <a href="./">smart whistle </a>
+            <a href="./">Smart whistle </a>
           </div>
 
           <div className="policy-nav">

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import BlueImage from '../images/blue2.PNG';
 import SosRemove from '../images/sos-removeb.png';
 import Calling from '../images/calling.png';

@@ -1,3 +1,4 @@
+import React from 'react';
 import AboutImage from '../images/about.png';
 
 const AboutSection = () => {
