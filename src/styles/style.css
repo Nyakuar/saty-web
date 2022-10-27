@@ -645,4 +645,17 @@ h2{
 }
 .text-center{
     text-align: center;
+margin-bottom: 3%;
+}
+.mainBanner .left{
+    margin-right: 60%;
+}
+.policy-nav a{
+    color: #000000;
+    text-decoration: none;  
+}
+.products-nav a{
+    color: #000000;
+    text-decoration: none;  
+
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import BuzzerFirst from '../images/buzzerfirst.jpg';
 import SIM from '../images/SIM800A-Quad.jpg';
 import Cable from '../images/arduino-uno-r3-cable-.jpg';

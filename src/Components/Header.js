@@ -1,4 +1,5 @@
-import NavComponent from './navbar';
+import React from 'react';
+import NavComponent from './Navbar';
 import Logo from '../images/logo.png';
 
 const Header = () => {
